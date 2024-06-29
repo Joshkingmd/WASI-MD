@@ -1,6 +1,6 @@
 {
-  "name": "Wasi-md",
-  "description": "Hi there, I am wasi Bot Whatsapp Chuddy Buddy built in NodeJs to make experience better.",
+  "name": "Joshkingmd",
+  "description": "Hi there, I am Joshuamambo Bot Whatsapp Chuddy Buddy built in NodeJs to make experience better.",
   "logo": "https://github.com/wasixd/WASI-MD/blob/main/lib/assets/suhail.jpg",
   "keywords": ["WASI MD BOT", "wasi md bot", "wasi tech", "wasi md", "wasi tech", "wasi Md Whatsapp Bot","multi device"],
   "success_url": "/",
@@ -9,8 +9,8 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name of Bot Owner",    
-      "value": "WASI SER",
-      "required" : false 
+      "value": "Joshkingmd",
+      "required" : true 
     },   
     
     "WELCOME": {
@@ -26,18 +26,18 @@
     },
     "BOT_NAME": {
       "description": " NAME FOR BOT",
-      "required" :false ,    
-      "value": "WASI MD"
+      "required" :true ,    
+      "value": "Joshkingmd"
     }, 
     "IMAGE": {
       "description": "Image for bot",
       "required" :true,    
-      "value": "https://telegra.ph/file/da95ed969f943e4d61ca8.jpg"
+      "value": "https://www.facebook.com/photo.php?fbid=415945324329736&set=a.162569353000669&type=3&mibextid=rS40aB7S9Ucbxw6v"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :true,    
-      "value": "Karachi/Pakistan"
+      "value": "Africa/ZIMBABWE"
     },  
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responding (After deployement!)",
@@ -47,7 +47,7 @@
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
       "required" :true,    
-      "value": "5"
+      "value": "10"
     }, 
     "READ_COMMAND": {
       "description": " Read bot cmds",
@@ -57,7 +57,7 @@
     "AUTO_SAVE_STATUS": {
       "description": " Auto save whatsapp status", 
       "required" :true,   
-      "value": "false"
+      "value": "true"
     }, 
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
@@ -66,7 +66,7 @@
     },   
     "HEROKU_APP_NAME": {
       "description": "Put Your Heroku App Name Here",
-      "value": "",
+      "value": "Joshkingmd",
     "required" :true
     }, 
     "WAPRESENCE": {
@@ -81,7 +81,7 @@
     }, 
     "MSGS_IN_LOG": {
       "description": "Fill the value true if you want to see Messages in Console.",
-      "required" :true,
+      "required" :false,
       "value": "false"
     },
     "READ_MESSAGE": {
@@ -91,29 +91,29 @@
     },
     "DISABLE_PM": {
       "description": "Disable bot in pm, Take it false if you wanna run bot in your pm (if MODE is Public)",
-      "value": "true",
-      "required" :true
+      "value": "false",
+      "required" :false
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot.",
       "required" :true,
-      "value": "."
+      "value": "+"
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
       "required" :true,
-      "value": "923135673658"
+      "value": "263777756184"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
       "required" :true,
-      "value": ""
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaUpwK0wvT2w3NXo0RDlFdEdYRmVRRVZmZ1dpaGF0eGZuYzhtMXRJYUgyZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiejc3bEdQb0JZK3Npa1FlaHA1aC81VkdwNTZZcEVDK3hvaVduSndnaWNGYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxTjNnQUhKZWJaU3ZCcEkveUFqNkpObTBqTy92N3dGcURQcU04dkM0ZVVvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ6c2tONm4yVUdWWmVLSS9SY3VLMmNMNldaNDNWcjhuYzVqTmpsUE5sSlRnPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjBFaC9tNHZUNXRyY3JlT1c2elhTWVBndU92VWJsbVdGOTJTdUZpSzl3VVk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlM0eWROemhIWm1pV0FwU09tTTZGT3E3c05iNERRbk80RkZNd0xCTlZUaWM9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMkRQZjRZY1ppR2EyZEdYbmxrV3JXVU9xdGF1MXBjN2YzaVFZd0sxQURFRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTXgvd2o5V1FCcVY1dWp0QVBBdy9jS1QvTTB6cVo4RUEzWXhLaFlrS0JSOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlhuS3NjTXVvcWMwWS9rK25yYVk5U0FtK2pMWVBNamJyazN6d3h5WnJlR1dLQWFUSjUxeDJXY25CSlZaWlRHQ2Q4MnZiSE9yNWtJMkcxeklCYVFaYUF3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTA4LCJhZHZTZWNyZXRLZXkiOiJHSkx0ZmJCaER6NGNYNmw4aGVacnA1U2VKVXhzUGdFMkxaRlVVWmxkbUprPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI2Mzc3Nzc1NjE4NEBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJGNzcxMkM3QjVFMjUzNjFFOTQ3QzA4QjU5NjQ2MUE0NyJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzE5NjE0MTQxfV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJEY0lPYWRHN1FLS0JzN1JnVndxanRBIiwicGhvbmVJZCI6IjE3MjUxZGVmLWNhMTYtNDgwNi1iYTIxLTA5NzY4ODJiOTk3ZSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJQL3Evd2hvRVk2WFNpaWlScWpDMGUwMGVGMUE9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMExFc2dBTmoyNWdIS0t4SHdpSllJT1ovYnNvPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjhUMTRUVlpYIiwibWUiOnsiaWQiOiIyNjM3Nzc3NTYxODQ6MTVAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiSm9zaHVhbWFtYm8xIEVjb3VuQmFuIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNQYU04cWdGRUt6MS9MTUdHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJuODdUbHpmRUNxQm8xWkFIYlhTNEx4Q1FGcVJReGRRa3JORmIyNmpzNjJZPSIsImFjY291bnRTaWduYXR1cmUiOiI5R093c0ZFOVpEeU5OcnQ0ZkRjdno0RVBhSzFoUU1qc1FrbnVXTVdhNjc1YklIaHB2eXExTkRxdytudE5qeVIvVVU2QTVyVXg2Z2w0aFg0MzhZblFEUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiWVYxS1lCMGRjamVWanB3cHU2SnFWNU04OHE3WXU4QUI5S1prSDJkM2JuQ0g1YSs4d1YxVGZvUkRhRndnalh5Zk9pZUVPOS9qNjByb0hVcUE3VUEzQXc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNjM3Nzc3NTYxODQ6MTVAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCWi9PMDVjM3hBcWdhTldRQjIxMHVDOFFrQmFrVU1YVUpLelJXOXVvN090bSJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxOTYxNDEzNiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFJZ2cifQ=="
   
     },
     "OPENAI_API_KEY": {
       "description": "put your OPENAI api key here.Get it from beta.openai.com ",
       "value": "",
-      "required" :false
+      "required" :true
     }, 
     "ELEVENLAB_API_KEY": {
       "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from https://youtu.be/HCDcdPtkwg4 ",
@@ -128,16 +128,16 @@
     "MODE": {
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
       "required" :true,
-      "value": "private"
+      "value": "public"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "wasi👋",
+      "value": "KINGJOSH👋",
       "required": true 
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "Md",
+      "value": "Joshkingmd",
       "required": true 
     }
   }, 
